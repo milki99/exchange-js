@@ -1212,3 +1212,43 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+.selVentaDai {
+  display: none;
+ 
+}
+.selCompraDai {
+  display: none;
+ 
+}
+.selVentaDollar {
+  display: none;
+ 
+}
+.selCompraDollar {
+  display: none;
+ 
+}
+
+.seleccion-unidades {
+  display: flex;
+  justify-content: center;
+}
+
+.container-continuar {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-aceptar{
+  margin-right: 30px;
+  background-color: #f5ac37;
+  color: white;
+}
+
+.boton-cancelar{
+  background-color: #666666;
+  color: white;
+}
+input {
+  text-align: center;
+}
