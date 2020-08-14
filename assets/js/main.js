@@ -4,6 +4,93 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+function changeVisibilityVentaDai() { 
+  document.getElementById("selVentaDai").style.display="block";
+  document.getElementById("selCompraDai").style.display="none"; 
+  document.getElementById("selCompraDollar").style.display="none";
+  document.getElementById("selVentaDollar").style.display="none";   
+}
+function changeVisibilityCompraDai() { 
+  document.getElementById("selVentaDai").style.display="none";
+  document.getElementById("selCompraDai").style.display="block"; 
+  document.getElementById("selCompraDollar").style.display="none";
+  document.getElementById("selVentaDollar").style.display="none";   
+}
+
+function changeVisibilityVentaDollar() { 
+  document.getElementById("selVentaDai").style.display="none";
+  document.getElementById("selCompraDai").style.display="none"; 
+  document.getElementById("selCompraDollar").style.display="none";
+  document.getElementById("selVentaDollar").style.display="block";   
+}
+
+function changeVisibilityCompraDollar() { 
+  document.getElementById("selVentaDai").style.display="none";
+  document.getElementById("selCompraDai").style.display="none"; 
+  document.getElementById("selCompraDollar").style.display="block";
+  document.getElementById("selVentaDollar").style.display="none";   
+}
+
+
+function aumentaValorVD() {
+  let valor = document.getElementById("unidadesVD").value;
+  document.getElementById("unidadesVD").value = String(Number(valor) + 10) + ".00";
+
+} 
+function disminuyeValorVD() {
+  let valor = document.getElementById("unidadesVD").value;
+  let resta = Number(valor) - 10;
+  if(resta < 0){resta = 0}
+  document.getElementById("unidadesVD").value = String(resta) + ".00";
+
+} 
+
+function aumentaValorCD() {
+  let valor = document.getElementById("unidadesCD").value;
+  document.getElementById("unidadesCD").value = String(Number(valor) + 10) + ".00";
+
+} 
+function disminuyeValorCD() {
+  let valor = document.getElementById("unidadesCD").value;
+  let resta = Number(valor) - 10;
+  if(resta < 0){resta = 0}
+  document.getElementById("unidadesCD").value = String(resta) + ".00";
+
+} 
+
+function aumentaValorVDR() {
+  let valor = document.getElementById("unidadesVDR").value;
+  document.getElementById("unidadesVDR").value = String(Number(valor) + 10) + ".00";
+
+} 
+function disminuyeValorCDR() {
+  let valor = document.getElementById("unidadesCDR").value;
+  let resta = Number(valor) - 10;
+  if(resta < 0){resta = 0}
+  document.getElementById("unidadesCDR").value = String(resta) + ".00";
+
+} 
+
+function aumentaValorCDR() {
+  let valor = document.getElementById("unidadesCDR").value;
+  document.getElementById("unidadesCDR").value = String(Number(valor) + 10) + ".00";
+
+} 
+function disminuyeValorVDR() {
+  let valor = document.getElementById("unidadesVDR").value;
+  let resta = Number(valor) - 10;
+  if(resta < 0){resta = 0}
+  document.getElementById("unidadesVDR").value = String(resta) + ".00";
+
+} 
+function cancelaOperacion(){
+  document.getElementById("selVentaDai").style.display="none";
+  document.getElementById("selCompraDai").style.display="none"; 
+  document.getElementById("selCompraDollar").style.display="none";
+  document.getElementById("selVentaDollar").style.display="none"; 
+}
+
+
 !(function($) {
   "use strict";
 
