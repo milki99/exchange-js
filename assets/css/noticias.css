@@ -1,0 +1,19 @@
+.misnoticias{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.news1{
+    display: flex;
+    border: 2px solid black;
+}
+
+.noticiatexto{
+    text-align: justify;
+}
+
+.noticiaimg{
+    width: 95%;
+    padding-bottom: 10px;
+}

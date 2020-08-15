@@ -1,0 +1,17 @@
+.guia{
+color: #007BFF;
+font-size: 30px;;
+width: 400px;
+margin: 0 auto;
+padding: 10px;
+background-color: whitesmoke;
+opacity: 0.8;
+text-align: center;
+border-radius: 3px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.mycard{
+    margin-top: 20px;
+}
